@@ -3,7 +3,7 @@
 import rospy
 import time
 from std_msgs.msg import Float32
-
+#
 rospy.init_node('talker_example_3')
 pub = rospy.Publisher('counter_3', Float32)
 myFloat = 0
